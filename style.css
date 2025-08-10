@@ -388,47 +388,6 @@ main {
   }
 }
 
-.problem {
-  display: flex;
-  align-items: center;
-  color: white;
-  background-color: brown;
-  gap: 8px;
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  z-index: 2147483647;
-  padding: 8px 12px;
-  border-radius: 6px;
-  font-family: sans-serif;
-  transition: opacity 0.3s ease, max-height 0.3s ease, padding 0.3s ease;
-  max-height: 100px;
-  max-width: 330px;
-}
-
-.close-btn {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-}
-
-.close-btn img {
-  width: 20px;
-  height: 20px;
-  transition: filter 0.2s;
-}
-
-.close-btn:hover img {
-  filter: brightness(0.8);
-}
-
-#closeToggle:checked + .problem {
-  opacity: 0;
-  pointer-events: none;
-  max-height: 0;
-  padding: 0;
-  overflow: hidden;
-}
 
 @media (max-width: 750px) {
   header {
