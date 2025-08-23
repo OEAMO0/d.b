@@ -708,11 +708,11 @@ main {
 
 @keyframes html {
   0% {
-    transform: translateX(-500%);
+    transform: scale(0);
   }
 
   100% {
-    transform: translateX(0%);
+    transform: scale(1);
   }
 }
 
@@ -728,11 +728,11 @@ main {
 
 @keyframes js {
   0% {
-    transform: translateX(500%);
+    transform: scale(0);
   }
 
   100% {
-    transform: translateX(0%);
+    transform: scale(1);
   }
 }
 
@@ -800,4 +800,5 @@ main {
   background-color: white;
   color: black;
 }
+
 
