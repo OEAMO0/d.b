@@ -718,11 +718,11 @@ main {
 
 @keyframes css {
   0% {
-    transform: translateY(200%);
+    transform: scale(0);
   }
 
   100% {
-    transform: translateY(0%);
+    transform: scale(1);
   }
 }
 
@@ -800,3 +800,4 @@ main {
   background-color: white;
   color: black;
 }
+
