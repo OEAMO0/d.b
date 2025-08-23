@@ -340,6 +340,10 @@ main {
   width: 100%;
 }
 
+.card i {
+  font-size: 4.4rem;
+}
+
 .Line1 {
   height: 10px;
   width: 100%;
@@ -433,7 +437,7 @@ main {
     flex-direction: row-reverse;
     height: 75%;
     width: 100%;
-    gap: 10px;
+    gap: 7.5px;
   }
 
   .card h2 {
