@@ -708,7 +708,7 @@ main {
 
 @keyframes html {
   0% {
-    transform: scale(0);
+    transform: scale(0) rotate(-45deg);
   }
 
   100% {
@@ -718,17 +718,17 @@ main {
 
 @keyframes css {
   0% {
-    transform: scale(0);
+    transform: perspective(600px) rotateX(90deg) scale(0.5);
   }
 
   100% {
-    transform: scale(1);
+    transform: perspective(600px) rotateX(0deg) scale(1);
   }
 }
 
 @keyframes js {
   0% {
-    transform: scale(0);
+    transform: scale(0) rotate(45deg);
   }
 
   100% {
@@ -800,5 +800,6 @@ main {
   background-color: white;
   color: black;
 }
+
 
 
