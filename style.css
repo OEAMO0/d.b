@@ -48,8 +48,8 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(7.5px);
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(25px);
   position: fixed;
   width: 100%;
   top: 0;
@@ -86,7 +86,7 @@ h1 {
 }
 
 h1 span {
-  background-color: white;
+  background-color: rgb(0, 255, 255);
   color: black;
   border-radius: 6px;
   padding: 2.5px 7.5px;
@@ -96,7 +96,7 @@ h1 span {
 }
 
 details {
-  background: rgb(255, 255, 255);
+  background-color: rgb(0, 255, 255);
   padding: 10px;
   width: 100%;
   border-radius: 6px;
@@ -149,7 +149,7 @@ details {
 .db img {
   width: 75px;
   height: 75px;
-  border: 3px solid green;
+  border: 3px solid rgb(0, 255, 255);
   border-radius: 50%;
 }
 
@@ -167,7 +167,7 @@ nav a {
 }
 
 nav a:hover {
-  color: red;
+  color: rgb(0, 255, 255);
 }
 
 main {
@@ -204,7 +204,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgb(0, 255, 255);
   border-radius: 6px;
   animation: img 2.5s ease-in-out 1;
 }
@@ -245,7 +245,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgb(0, 255, 255);
   border-radius: 6px;
   animation: img1 2.5s ease-in-out 1;
 }
@@ -303,11 +303,11 @@ main {
   flex-direction: column;
   width: 200px;
   height: 250px;
-  background: white;
+  background: rgb(0, 255, 255);
   border-radius: 6px;
   transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 255, 0.1), 0 0 0 2px rgb(0, 255, 255),
+    0.3em 0.3em 1em rgba(0, 255, 255, 0.3);
   animation: html 2.5s ease-in-out 1;
   animation-timeline: view();
   animation-range: entry 0%;
@@ -321,11 +321,11 @@ main {
   flex-direction: column;
   width: 200px;
   height: 250px;
-  background: white;
+  background: rgb(0, 255, 255);
   border-radius: 6px;
   transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 255, 0.1), 0 0 0 2px rgb(0, 255, 255),
+    0.3em 0.3em 1em rgba(0, 255, 255, 0.3);
   animation: css 2.5s ease-in-out 1;
   animation-timeline: view();
   animation-range: entry 0% entry 100%;
@@ -339,11 +339,11 @@ main {
   flex-direction: column;
   width: 200px;
   height: 250px;
-  background: white;
+  background: rgb(0, 255, 255);
   border-radius: 6px;
   transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 255, 0.1), 0 0 0 2px rgb(0, 255, 255),
+    0.3em 0.3em 1em rgba(0, 255, 255, 0.3);
   animation: js 2.5s ease-in-out 1;
   animation-timeline: view();
   animation-range: entry 0%;
@@ -379,7 +379,7 @@ main {
 .Line1 {
   height: 10px;
   width: 100%;
-  background-color: white;
+  background: rgb(0, 255, 255);
   border-radius: 6px;
   border: 1px solid black;
   overflow: hidden;
@@ -418,11 +418,11 @@ main {
     flex-direction: column;
     flex-basis: 100%;
     height: 150px;
-    background: white;
+    background: rgb(0, 255, 255);
     border-radius: 6px;
     transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-      0 0 0 2px rgb(190, 190, 190), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 255, 0.1),
+      0 0 0 2px rgb(0, 255, 255), 0.3em 0.3em 1em rgba(0, 255, 255, 0.3);
     animation: html1 2.5s ease-in-out 1;
     animation-timeline: view();
     animation-range: entry 0%;
@@ -437,11 +437,11 @@ main {
     flex-basis: 100%;
     flex-grow: 1;
     height: 150px;
-    background: white;
+    background: rgb(0, 255, 255);
     border-radius: 6px;
     transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-      0 0 0 2px rgb(190, 190, 190), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 255, 0.1),
+      0 0 0 2px rgb(0, 255, 255), 0.3em 0.3em 1em rgba(0, 255, 255, 0.3);
     animation: css1 2.5s ease-in-out 1;
     animation-timeline: view();
     animation-range: entry 0%;
@@ -455,11 +455,11 @@ main {
     flex-direction: column;
     flex-basis: 100%;
     height: 150px;
-    background: white;
+    background: rgb(0, 255, 255);
     border-radius: 6px;
     transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-      0 0 0 2px rgb(190, 190, 190), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 255, 0.1),
+      0 0 0 2px rgb(0, 255, 255), 0.3em 0.3em 1em rgba(0, 255, 255, 0.3);
     animation: js1 2.5s ease-in-out 1;
     animation-timeline: view();
     animation-range: entry 0%;
@@ -492,8 +492,8 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(7.5px);
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(25px);
     position: fixed;
     width: 100%;
     top: 0;
@@ -538,13 +538,13 @@ main {
     padding: 5px 10px;
     border-radius: 6px;
     width: 100%;
-    background: white;
+    background: rgb(0, 255, 255);
     color: rgb(0, 0, 0);
   }
 
   .nav > a:hover {
     color: rgb(0, 0, 0);
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(125, 255, 255);
     border-radius: 6px;
   }
 
@@ -598,7 +598,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+      background: rgb(0, 255, 255);
     border-radius: 10px;
   }
 
@@ -623,7 +623,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+      background: rgb(0, 255, 255);
     border-radius: 10px;
   }
 
@@ -834,6 +834,6 @@ main {
 }
 
 ::selection {
-  background-color: white;
+  background-color: rgb(125, 255, 255);
   color: black;
 }
