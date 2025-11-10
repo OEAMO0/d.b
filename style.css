@@ -500,6 +500,12 @@ main {
   }
 }
 
+@media (max-width: 380px) {
+.db1 {
+  background: url(icons/Group\ 4.svg) center/cover;
+}
+}
+
 @media (max-width: 750px) {
   .intro {
     display: none;
