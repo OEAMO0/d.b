@@ -506,6 +506,12 @@ main {
 }
 }
 
+@media (max-width: 340px) {
+.db1 {
+  background: url(icons/Group\ 5.svg) center/cover;
+}
+}
+
 @media (max-width: 750px) {
   .intro {
     display: none;
@@ -863,3 +869,4 @@ main {
   background-color: rgb(125, 255, 255);
   color: black;
 }
+
