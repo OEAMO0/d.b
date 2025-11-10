@@ -136,6 +136,10 @@ details {
   border-radius: 6px;
   position: relative;
 }
+.db1 {
+  background: url(icons/Group\ 3.svg) center/cover;
+}
+
 
 .userName {
   color: white;
